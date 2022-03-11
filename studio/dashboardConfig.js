@@ -1,12 +1,6 @@
 export default {
   widgets: [
     {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
-      }
-    },
-    {
       name: 'project-info',
       options: {
         __experimental_before: [

@@ -3,15 +3,20 @@
   import Footer from '$lib/Footer.svelte'
 </script>
 
-<Header blogTitle={'SvelteKit x Sanity Blog'} />
+<!-- <Header blogTitle={'SvelteKit x Sanity Blog'} />
 
 <main style="padding: 1em">
   <slot />
 </main>
 
-<Footer />
+<Footer /> -->
+
+<slot />
 
 <style>
+  :global(body) {
+    background: #222;
+  }
   :global(a) {
     color: #1a4d9e;
   }

@@ -33,7 +33,9 @@ export default {
     {
       name: 'image',
       type: 'image',
-      title: 'Main image'
+      title: 'Main image',
+      description: 'Bobo',
+      options: {hotspot: true}
     },
     {
       name: 'authors',
